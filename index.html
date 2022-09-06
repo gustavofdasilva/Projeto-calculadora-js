@@ -5,11 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora simples</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/mobile-style.css" media="all">
+    <link rel="stylesheet" href="style/media-style.css" media="all">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
-        
+        <div id="result">
+            <input type="text" name="text" id="text">
+        </div>
+
+        <div id="buttons">
+            <div>
+                <button class="grow" onclick="clearResult()">C</button>
+                <button onclick="add('+')">+</button>
+            </div>
+
+            <div>
+                <button onclick="add('1')">1</button>
+                <button onclick="add('2')">2</button>
+                <button onclick="add('3')">3</button>
+                <button onclick="add('-')">-</button>
+            </div>
+
+            <div>
+                <button onclick="add('4')">4</button>
+                <button onclick="add('5')">5</button>
+                <button onclick="add('6')">6</button>
+                <button onclick="add('/')">/</button>
+            </div>
+
+            <div>
+                <button onclick="add('7')">7</button>
+                <button onclick="add('8')">8</button>
+                <button onclick="add('9')">9</button>
+                <button onclick="add('*')">*</button>
+            </div>
+            <div>
+                <button class="grow" onclick="add('0')">0</button>
+                <button id="equal" onclick="result()">=</button>
+            </div>
+        </div>
     </main>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
