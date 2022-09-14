@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,10 +11,11 @@ html {
 }
 
 body {
+    
     background-color: #042e28;
 }
 
-main{
+main {
     background-color: #1B03A8;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -23,6 +25,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    
 }
 
 div#result>input {
@@ -31,6 +34,8 @@ div#result>input {
     font-size: 2em;
     margin: 15px 0px 25px 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    text-align: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div#buttons {
@@ -49,6 +54,7 @@ button.grow{
 }
 
 button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 5px;
     margin: 5px;
     height: 80px;
