@@ -11,11 +11,11 @@ html {
 }
 
 body {
-    background-color: #042e28;
+    background-color: #c9c9c9;
 }
 
 main {
-    background-color: #1B03A8;
+    background-color: #c4c4c4;
     margin-top: 12px;
     margin-bottom: 12px;
     padding: 35px;
@@ -24,7 +24,7 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
     
 }
 
@@ -33,7 +33,9 @@ div#result>input {
     height: 60px;
     font-size: 2em;
     margin: 15px 0px 25px 0px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
+    background-color: #c9c9c9;
+    border: 0;
     text-align: end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -59,30 +61,30 @@ button {
     margin: 5px;
     height: 80px;
     width: 30%;
-    background-color: #472AF5;
+    background-color: #80808033;
     border: none;
     transition: 0.2s;
     font-size: 2em;
     color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
 }
     button:hover {
-        background-color: #4126d8;
+        background-color: #80808011;
         transition: 0.2s;
     }
     button:active {
-        background-color: #3922bb;
+        background-color: #80808000;
     }
 
 button#equal {
-    background-color: #34F52A;
+    background-color: #78baf0;
     transition: 0.2s;
 }
     button#equal:hover {
-        background-color: #2cd823;
+        background-color: #78baf0dd;
         transition: 0.2s;
     }
     button#equal:active {
-        background-color: #26af1e;
+        background-color: #78baf0ee;
     }
 
